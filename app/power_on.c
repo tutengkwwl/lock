@@ -3,7 +3,7 @@
  **** Copyright (C), 2017, Transtek Co., Ltd.                ****
 
  *******************************************************************************
- * File Name     : ili9325.h
+ * File Name     : power_on.c
  * Author        : soul
  * Date          : 2017-07-26
  * Description   : .C file function description
@@ -14,39 +14,26 @@
 
 *******************************************************************************/
 
+#include "ili9325.h"
 
 
 
 
-
-#ifdef __cplusplus
-#if __cplusplus
-extern "C"{
-#endif
-#endif /* __cplusplus */
-
-
-#ifndef ILI9325_H
-#define ILI9325_H
-
-
-
-
-
-
-void tft_init();
-
-
-
-
-
-
-
-#endif
-
-#ifdef __cplusplus
-#if __cplusplus
+void system_init()
+{
+    tft_init();
 }
-#endif
-#endif /* __cplusplus */
+
+
+
+
+
+
+
+
+
+
+
+
+
 

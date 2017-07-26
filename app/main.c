@@ -76,7 +76,7 @@ int main(void)
   /* Configure the system clock to have a system clock = 48 Mhz */
   SystemClock_Config();
   
-  
+  system_init();
   /* Add your application code here
      */
 
